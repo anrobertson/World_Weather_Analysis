@@ -13,7 +13,7 @@ I placed a float() input code for the custumor to be able to input the desired m
 
 After cleaning that data frame with the dropna(), I was able to take that information and create another csv file to bring into the final notebook.
 
-###Create a Travel Itinerary Map
+### Create a Travel Itinerary Map
 
 The final step was to create the travel itinerary map. I imported the csv file and created a marker layer for the map. To run the test I picked four different cities that were close by to each other and used the .to_numpy to gather the latitude-longitude pairs as tuples and created a data frame for each city.
 
